@@ -30,19 +30,19 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
   // Add your code here
-  current.short_description = "This text set by the Debugging Business Rules business rule.";
-  var myNum = current.state;
-    
-  // The function in this try/catch is not defined
-  try{
-    thisFunctionDoesNotExist();
-  }
-  catch(err){
-    gs.error("NeedIt App: a JavaScript runtime error occurred - " + err);
-  }
-
-  // This function is not defined and is not part of a try/catch
-     thisFunctionAlsoDoesNotExist();
+//  current.short_description = "This text set by the Debugging Business Rules business rule.";
+//  var myNum = current.state;
+//    
+//  // The function in this try/catch is not defined
+//  try{
+//    thisFunctionDoesNotExist();
+//  }
+//  catch(err){
+//    gs.error("NeedIt App: a JavaScript runtime error occurred - " + err);
+//  }
+//
+//  // This function is not defined and is not part of a try/catch
+//     thisFunctionAlsoDoesNotExist();
 
   // getNum and setNum demonstrate JavaScript Closure
   var x = 7;
