@@ -5,7 +5,7 @@
         <assessment/>
         <device_type/>
         <filter/>
-        <hint/>
+        <hint>A list of all of records in the NeedIt table.</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
